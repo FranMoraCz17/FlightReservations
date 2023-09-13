@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Reservation.cpp" />
     <ClCompile Include="UMLEnClase.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Reservation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
